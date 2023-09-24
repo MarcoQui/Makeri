@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px 300px;
+}
+header{
+    background-image: url(./imagenes/646892d48c083c158063f0a4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+ header h1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-style: oblique;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 50PX;
+}
+header p{
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    font-family: fantasy;
+    background-color: rgb(115, 197, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 40px;
+    margin: 70px 70px;
+}
+/* section sobre mi*/
+#sobre-mi{
+    background-color: #7299FE;
+    padding: 30px;
+}
+#sobre-mi h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1D06A7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+}
+#sobre-mi p{
+    text-align: justify;
+    margin-bottom: 20px;
+    color: white;
+}
+#sobre-mi button{
+    color: white;
+    background-color: rgb(218, 0, 196);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+/*Section skill*/
+#skill{
+    background-color: #9022FF;
+    padding: 40px;
+}
+#skill h2{
+    text-align: center;
+    justify-content: center;
+    color: #26CC4B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contenedor{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+#cont-1{
+    margin: 10px;
+}
+#cont-2{
+    margin: 10px;
+}
+
+/*section portafolio */
+#portafolio{
+    background-color: #FFD233;
+    color: #00AD84;
+    padding: 30px;
+}
+#portafolio h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#cont-port{
+    display: flex;
+    justify-content: center;
+}
+progress{
+    appearance: none;
+    width: 300px;
+}
+progress::-webkit-progress-bar{
+    border-radius: 10em;
+    background-color: white;
+}
+progress::-webkit-progress-value{
+    border-radius: 10em;
+    background-color: #57EFF9;
+}
+/* Section cliente*/
+#cliente{
+    background: #3F4E62;
+    padding: 30px;
+}
+#cliente h2{
+    color: #ADFF28;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#img-cont{
+    display: flex;
+    justify-content: center;
+}
+#img-cont img{
+    width: 150px;
+    padding: 10px;
+}
+/* section contacto*/ 
+#contacto{
+    background-color: #1687A0;
+    padding: 30px;
+}
+#contacto h2{
+    text-align: center;
+    color: #FF1B1B;
+    margin-bottom: 20px;
+}
+#form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form input{
+    width: 44.2%;
+    height: 30px;
+    margin: 0.5rem;
+}
+#form textarea{
+    width: 43%;
+}
+#button{
+    background-color: #233451;
+    color: white;
+    width: 20%;
+    margin: 20PX;
+    padding: 10PX 0PX;
+}
